@@ -13,12 +13,11 @@
    -------------------------------------------------------------------------- */
 const PROFILE = {
   name: "Arooba Ali",
-  github: "https://github.com/aroobaali510-star",       // e.g. "https://github.com/aroobaali"
-  linkedin: "https://www.linkedin.com/in/arooba-ali-125381391/",   // e.g. "https://linkedin.com/in/aroobaali"
-  resume: "assets/images/Arooba_Ali_CV.pdf",       // e.g. a link to a hosted PDF
-  email: "aroobaali510@gmail.com",             // e.g. "arooba@example.com"
-  portfolioUrl: "YOUR_PORTFOLIO_URL", // your live GitHub Pages URL, once deployed
-  /* Short phrases that rotate under the hero eyebrow. Keep them short. */
+  github: "https://github.com/aroobaali510-star",
+  linkedin: "https://www.linkedin.com/in/arooba-ali-125381391/",
+  resume: "Arooba_Ali_CV.pdf",
+  email: "aroobaali510@gmail.com",
+  portfolioUrl: "https://aroobaali510-star.github.io/Arooba_portfolio/",
   focusRotator: ["Python", "Machine Learning", "Data Science", "Practical AI"]
 };
 
@@ -56,13 +55,6 @@ const SKILLS = [
     title: "Tools",
     items: ["Jupyter Notebook", "VS Code", "Anaconda", "Git / GitHub", "Streamlit"]
   }
-  /* To add a category:
-  {
-    icon: "bi-cloud",
-    title: "Your New Category",
-    items: ["Skill One", "Skill Two"]
-  },
-  */
 ];
 
 /* ---- ML learning roadmap ---------------------------------------------------
@@ -137,50 +129,28 @@ const PROJECTS = [
       "Firebase-based data storage"
     ],
     note: "",
-    github: "YOUR_ATTENDEASE_GITHUB",
+    github: "https://github.com/aroobaali510-star/Attendease",
     demo: ""
   }
-  /* To add a project, copy this block and edit it:
-  {
-    title: "Your New Project",
-    status: "progress",
-    statusLabel: "In Progress",
-    description: "One or two sentences describing the project.",
-    tags: ["Python", "..."],
-    details: ["Step one", "Step two"],
-    note: "",
-    github: "YOUR_NEW_PROJECT_GITHUB",
-    demo: ""
-  },
-  */
 ];
 
-/* ---- Certifications ---------------------------------------------------- */
 /* ---- Certifications ---------------------------------------------------- */
 const CERTIFICATIONS = [
   {
     title: "AI using Python",
     issuer: "DigiSkills",
-    link: "assets/images/AI using python.jpeg"
+    link: "AI using python.jpeg"
   },
   {
     title: "Soft Communication Skills",
     issuer: "DigiSkills",
-    link: "assets/images/communication and soft skill.jpeg"
+    link: "communication and soft skill.jpeg"
   },
   {
     title: "AI and Career Empowerment",
     issuer: "University of Maryland",
-    link: "assets/images/AI and Career Empowerment.jpeg"
+    link: "AI and Career Empowerment.jpeg"
   }
-
-  /* Add more the same way:
-  {
-    title: "Certificate Name",
-    issuer: "Issuing Platform",
-    link: "assets/images/certificate-name.jpeg"
-  },
-  */
 ];
 
 /* ---- Currently learning tags --------------------------------------------- */
